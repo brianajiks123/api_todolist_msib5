@@ -1,0 +1,31 @@
+{
+	"db": {
+		"host": "exampleHost",
+		"user": "exampleUsername",
+		"password": "examplePassword",
+		"database": "exampleDatabase",
+		"charset": "utf8mb4",
+		"rejectEmpty": true
+	},
+
+	"port": 10000,
+
+	"jwt": {
+		"publicKey": "/path/to/public.pem",
+		"privateKey": "/path/to/private.pem",
+		"passcode": "Your passcode here..",
+		"expired": 1800000
+	},
+
+	"certificates": [
+		"/path/to/cert.pem"
+	],
+
+	"site": {
+		"url": "http://localhost:10000",
+		"title": {
+			"main": "Site main title",
+			"sub": "Sub-title heheheh"
+		}
+	}
+}
